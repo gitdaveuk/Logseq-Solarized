@@ -126,8 +126,8 @@ html[data-theme="basic-logseq-dark"] {
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: #2aa198;
-    --ed-caret-self-box-shadow: 0 0 6px rgba(42, 161, 152, 0.6);
+    --ed-caret-self-background: color-mix(in srgb, darkcyan 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 6px rgba(42, 161, 152, 0.4);
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code                            */
@@ -340,8 +340,8 @@ html[data-theme="basic-logseq-light"] {
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: #2aa198;
-    --ed-caret-self-box-shadow: 0 0 6px rgba(42, 161, 152, 0.5);
+    --ed-caret-self-background: color-mix(in srgb, darkcyan 70%, transparent);
+    --ed-caret-self-box-shadow: 0 0 6px rgba(42, 161, 152, 0.4);
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code                            */

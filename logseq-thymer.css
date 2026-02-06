@@ -1,10 +1,10 @@
 /*
 * Logseq Theme for Thymer
-* Variants: Dark and Light
+* Variants: Solarized Dark and Solarized Light
 */
 
 /* ------------------------------------------- */
-/* Logseq Dark Theme                           */
+/* Logseq Dark Theme (Solarized Dark)          */
 /* ------------------------------------------- */
 html[data-theme="basic-logseq-dark"] {
     color-scheme: dark;
@@ -214,11 +214,11 @@ html[data-theme="basic-logseq-dark"] {
     --ed-drag-handle-color: #06b6d4;
     --ed-drag-handle-hover-border: #22d3ee;
 
-    --gradient-scrim: none;
+    /*--gradient-scrim: none;*/
 }
 
 /* ------------------------------------------- */
-/* Logseq Light Theme                          */
+/* Logseq Light Theme (Solarized Light)        */
 /* ------------------------------------------- */
 html[data-theme="basic-logseq-light"] {
     color-scheme: light;
@@ -232,26 +232,26 @@ html[data-theme="basic-logseq-light"] {
     .heading-h4,
     .heading-h5,
     .heading-h6 {
-        color: #0f0f0f;
+        color: #073642;
     }
 
     /* ------------------------------------------- */
-    /* 2. Background Colors                        */
+    /* 2. Background Colors (Solarized beige/cream) */
     /* ------------------------------------------- */
-    --color-bg-50: #cbd5e0;
-    --color-bg-100: #e2e8f0;
-    --color-bg-150: #edf2f7;
-    --color-bg-200: #f1f5f9;
-    --color-bg-300: #f7fafc;
-    --color-bg-400: #fafcfd;
-    --color-bg-500: #ffffff;
-    --color-bg-600: #ffffff;
-    --color-bg-700: #fefefe;
-    --color-bg-800: #e2e8f0; /* Sidebar */
-    --color-bg-900: #fafafa; /* Main window */
-    --color-bg-950: #ffffff;
-    --color-bg-500-50: rgba(255, 255, 255, 0.5);
-    --color-bg-950-50: rgba(255, 255, 255, 0.65);
+    --color-bg-50: #93a1a1;
+    --color-bg-100: #c5caca;
+    --color-bg-150: #d8dcdc;
+    --color-bg-200: #e4e7e7;
+    --color-bg-300: #eee8d5;
+    --color-bg-400: #f5f0e3;
+    --color-bg-500: #fdf6e3;
+    --color-bg-600: #fdf6e3;
+    --color-bg-700: #fefbf1;
+    --color-bg-800: #eee8d5; /* Sidebar */
+    --color-bg-900: #fdf6e3; /* Main window */
+    --color-bg-950: #fffef8;
+    --color-bg-500-50: rgba(253, 246, 227, 0.5);
+    --color-bg-950-50: rgba(255, 254, 248, 0.65);
 
     /* ------------------------------------------- */
     /* 3. Primary Colors (Teal/Cyan accent)        */
@@ -269,171 +269,164 @@ html[data-theme="basic-logseq-light"] {
     --color-primary-950: #e6fffa;
     --color-primary-400-70: rgba(8, 145, 178, 0.7);
     --color-primary-950-20: rgba(230, 255, 250, 0.2);
-    --color-primary-text-100: #ffffff;
+    --color-primary-text-100: #fdf6e3;
 
     /* ------------------------------------------- */
-    /* 4. Text & Icons                             */
+    /* 4. Text & Icons (Solarized text colors)     */
     /* ------------------------------------------- */
-    --color-text-50: #0f0f0f;
-    --color-text-100: #000000;
-    --color-text-200: #1a202c;
-    --color-text-300: #2d3748;
-    --color-text-400: #4a5568;
-    --color-text-500: #718096;
-    --color-text-600: #a0aec0;
+    --color-text-50: #073642;
+    --color-text-100: #073642;
+    --color-text-200: #002b36;
+    --color-text-300: #073642;
+    --color-text-400: #586e75;
+    --color-text-500: #657b83;
+    --color-text-600: #839496;
     --color-text-700: #0891b2;
-    --color-text-800: #1a202c;
-    --color-text-900: #ffffff;
-    --color-text-950: #718096;
+    --color-text-800: #073642;
+    --color-text-900: #fdf6e3;
+    --color-text-950: #93a1a1;
 
     /* ------------------------------------------- */
     /* 5. Semantic Colors                          */
     /* ------------------------------------------- */
-    --text-ok: #059669;
-    --text-status-online: #059669;
-    --text-warning: #d97706;
-    --text-error: #dc2626;
-    --bg-alert: #dc2626;
-    --fg-alert: #ffffff;
+    --text-ok: #2aa198;
+    --text-status-online: #2aa198;
+    --text-warning: #b58900;
+    --text-error: #dc322f;
+    --bg-alert: #dc322f;
+    --fg-alert: #fdf6e3;
 
     /* ------------------------------------------- */
     /* 6. Links, Tags & Mentions                   */
     /* ------------------------------------------- */
-    --link-color: #0891b2;
-    --link-hover-color: #0e7490;
-    --ed-link-color: #0891b2;
-    --ed-link-hover-color: #0e7490;
+    --link-color: #268bd2;
+    --link-hover-color: #2aa198;
+    --ed-link-color: #268bd2;
+    --ed-link-hover-color: #2aa198;
 
-    --ed-hashtag-color: #0891b2;
-    --ed-hashtag-bg: rgba(8, 145, 178, 0.1);
+    --ed-hashtag-color: #268bd2;
+    --ed-hashtag-bg: rgba(38, 139, 210, 0.1);
 
-    --ed-mention-color: #7c3aed;
-    --ed-mention-bg: rgba(124, 58, 237, 0.1);
-    --ed-mention-hover-bg: rgba(124, 58, 237, 0.2);
-    --ed-mention-hover-color: #7c3aed;
+    --ed-mention-color: #6c71c4;
+    --ed-mention-bg: rgba(108, 113, 196, 0.1);
+    --ed-mention-hover-bg: rgba(108, 113, 196, 0.2);
+    --ed-mention-hover-color: #6c71c4;
 
-    --ed-datetime-color: #0891b2;
-    --ed-datetime-bg: rgba(8, 145, 178, 0.1);
+    --ed-datetime-color: #2aa198;
+    --ed-datetime-bg: rgba(42, 161, 152, 0.1);
 
     /* ------------------------------------------- */
     /* 7. Tasks & Checkboxes                       */
     /* ------------------------------------------- */
-    --ed-check-div-border: #0891b2;
-    --ed-check-div-hover-border: #0e7490;
-    --ed-check-done-bg: #0891b2;
-    --ed-check-done-fg: #ffffff;
+    --ed-check-div-border: #268bd2;
+    --ed-check-div-hover-border: #2aa198;
+    --ed-check-done-bg: #2aa198;
+    --ed-check-done-fg: #fdf6e3;
 
     /* Done task styling */
     .listitem.listitem-task.state-done .lineitem-text {
-        color: #a0aec0 !important;
-        text-decoration-color: #a0aec0 !important;
+        color: #93a1a1 !important;
+        text-decoration-color: #93a1a1 !important;
         opacity: 1 !important;
     }
 
     /* ------------------------------------------- */
     /* 8. Selection & Caret                        */
     /* ------------------------------------------- */
-    --selection-bg: rgba(8, 145, 178, 0.2);
-    --selection-fg: #0f0f0f;
-    --ed-selection-self-bg: rgba(8, 145, 178, 0.2);
-    --ed-selection-blurred-bg: rgba(8, 145, 178, 0.1);
+    --selection-bg: rgba(38, 139, 210, 0.2);
+    --selection-fg: #073642;
+    --ed-selection-self-bg: rgba(38, 139, 210, 0.2);
+    --ed-selection-blurred-bg: rgba(38, 139, 210, 0.1);
 
     --ed-caret-self-radius: 2px;
     --ed-caret-self-border-width: 0px;
-    --ed-caret-self-background: #0891b2;
-    --ed-caret-self-box-shadow: 0 0 4px rgba(8, 145, 178, 0.5);
+    --ed-caret-self-background: #268bd2;
+    --ed-caret-self-box-shadow: 0 0 4px rgba(38, 139, 210, 0.5);
 
     /* ------------------------------------------- */
     /* 9. Quotes & Code                            */
     /* ------------------------------------------- */
-    --ed-quote-border-color: #0891b2;
+    --ed-quote-border-color: #268bd2;
 
     --ed-code-border: transparent;
-    --ed-code-bg: rgba(237, 242, 247, 0.8);
+    --ed-code-bg: rgba(238, 232, 213, 0.5);
 
     /* Inline code */
     .lineitem-code {
-        background-color: var(--color-bg-200) !important;
-        color: #d97706 !important;
+        background-color: #eee8d5 !important;
+        color: #cb4b16 !important;
         border-radius: 4px;
         padding: 2px 5px;
         font-family: var(--font-monospace);
     }
 
     /* Note blocks */
-    --ed-block-note-bg: rgba(8, 145, 178, 0.08);
-    --ed-block-note-border: #0891b2;
+    --ed-block-note-bg: rgba(42, 161, 152, 0.08);
+    --ed-block-note-border: #2aa198;
 
     /* ------------------------------------------- */
     /* 10. UI Components                           */
     /* ------------------------------------------- */
-    --cards-bg: #fafafa;
-    --cards-hover-bg: #f7fafc;
+    --cards-bg: #fdf6e3;
+    --cards-hover-bg: #eee8d5;
     --cards-border-color: transparent;
     --cards-border-color-focused: transparent;
 
-    --side-bg-active-focus: #0891b2;
-    --side-fg-active-focus: #ffffff;
-    --sidebar-bg-hover: #cbd5e0;
+    --side-bg-active-focus: #268bd2;
+    --side-fg-active-focus: #fdf6e3;
+    --sidebar-bg-hover: #eee8d5;
     --sidebar-border-color: transparent;
 
-    --cmdpal-bg-color: #ffffff;
-    --cmdpal-selected-bg-color: #0891b2;
-    --cmdpal-selected-fg-color: #ffffff;
-    --cmdpal-hover-bg-color: #f7fafc;
+    --cmdpal-bg-color: #fdf6e3;
+    --cmdpal-selected-bg-color: #268bd2;
+    --cmdpal-selected-fg-color: #fdf6e3;
+    --cmdpal-hover-bg-color: #eee8d5;
     --cmdpal-border-color: transparent;
 
-    --input-bg-color: #ffffff;
-    --input-border-color: transparent;
-    --input-border-focus: 1px solid #0891b2;
-    --input-border-shadow: 0 0 8px rgba(8, 145, 178, 0.3);
+    --input-bg-color: #fdf6e3;
+    --input-border-color: #eee8d5;
+    --input-border-focus: 1px solid #268bd2;
+    --input-border-shadow: 0 0 8px rgba(38, 139, 210, 0.3);
 
-    --button-primary-bg-color: #0891b2;
-    --button-primary-fg-color: #ffffff;
-    --button-primary-bg-hover-color: #0e7490;
-    --button-bg-color: #f7fafc;
+    --button-primary-bg-color: #268bd2;
+    --button-primary-fg-color: #fdf6e3;
+    --button-primary-bg-hover-color: #2aa198;
+    --button-bg-color: #eee8d5;
     --button-border-color: transparent;
-    --button-bg-hover-color: #edf2f7;
+    --button-bg-hover-color: #e4e7e7;
 
-    --color-shadow: rgba(0, 0, 0, 0.1);
-    --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.05);
-    --color-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.1);
+    --color-shadow: rgba(0, 43, 54, 0.08);
+    --color-shadow-cards: 0 2px 4px rgba(0, 43, 54, 0.05);
+    --color-shadow-hover: 0 4px 8px rgba(0, 43, 54, 0.1);
 
-    --logo-color: #0891b2;
+    --logo-color: #268bd2;
     --logo-glow-shadow:
-        0 0 15px rgba(8, 145, 178, 0.3),
-        0 0 30px rgba(8, 145, 178, 0.2);
+        0 0 15px rgba(38, 139, 210, 0.3),
+        0 0 30px rgba(38, 139, 210, 0.2);
 
-    /* Enums */
-    --enum-red-bg: rgba(220, 38, 38, 0.15);
-    --enum-red-fg: #dc2626;
-    --enum-orange-bg: rgba(217, 119, 6, 0.15);
-    --enum-orange-fg: #d97706;
-    --enum-yellow-bg: rgba(234, 179, 8, 0.15);
-    --enum-yellow-fg: #eab308;
-    --enum-green-bg: rgba(5, 150, 105, 0.15);
-    --enum-green-fg: #059669;
-    --enum-cyan-bg: rgba(8, 145, 178, 0.15);
-    --enum-cyan-fg: #0891b2;
-    --enum-blue-bg: rgba(37, 99, 235, 0.15);
-    --enum-blue-fg: #2563eb;
-    --enum-purple-bg: rgba(124, 58, 237, 0.15);
-    --enum-purple-fg: #7c3aed;
-    --enum-pink-bg: rgba(219, 39, 119, 0.15);
-    --enum-pink-fg: #db2777;
+    /* Enums - Solarized accent colors */
+    --enum-red-bg: rgba(220, 50, 47, 0.15);
+    --enum-red-fg: #dc322f;
+    --enum-orange-bg: rgba(203, 75, 22, 0.15);
+    --enum-orange-fg: #cb4b16;
+    --enum-yellow-bg: rgba(181, 137, 0, 0.15);
+    --enum-yellow-fg: #b58900;
+    --enum-green-bg: rgba(133, 153, 0, 0.15);
+    --enum-green-fg: #859900;
+    --enum-cyan-bg: rgba(42, 161, 152, 0.15);
+    --enum-cyan-fg: #2aa198;
+    --enum-blue-bg: rgba(38, 139, 210, 0.15);
+    --enum-blue-fg: #268bd2;
+    --enum-purple-bg: rgba(108, 113, 196, 0.15);
+    --enum-purple-fg: #6c71c4;
+    --enum-pink-bg: rgba(211, 54, 130, 0.15);
+    --enum-pink-fg: #d33682;
 
-    --prop-border-focused: #ffffff;
-    --prop-bg-focused: rgba(8, 145, 178, 0.2);
+    --prop-border-focused: #fdf6e3;
+    --prop-bg-focused: rgba(38, 139, 210, 0.2);
     --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0);
-    --ed-drag-handle-color: #0891b2;
-    --ed-drag-handle-hover-border: #0e7490;
+    --ed-drag-handle-color: #268bd2;
+    --ed-drag-handle-hover-border: #2aa198;
 
-    --gradient-scrim: none;
-}
-
-html[data-theme] {
---ed-caret-self-radius: 2px;
---ed-caret-self-border-width: 0px;
---ed-caret-self-background: color-mix(in srgb, darkcyan 70%, transparent);
---ed-caret-self-box-shadow: 0 0 2px darkcyan;
+    /*--gradient-scrim: none;*/
 }
